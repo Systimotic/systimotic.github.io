@@ -1,0 +1,31 @@
++ Navigation
+logo (systimotic)
+about
+projects
+contact
+
+
++ Header
+Timo Keurentjes
+A software developer who's eager to learn and help
+
+
++ About
+I started learning to code in 2013. Apart from learning to code, I learned that I enjoy helping others find a solution to their problems. I first started actively doing this as a forum moderator for [Anchor CMS]. I continued doing this in chat rooms and ended up finding an open source project to contribute to. I've been a Core Team member at freeCodeCamp since October 2016. I'm currently a software development intern at [LeanForms].
+
+
++ Projects
+
+++ freeCodeCamp Guide
+The freeCodeCamp Guide is a reference for all things related to programming, oriented at beginners.
+As one of the main contributors to this project, I work on the React-based platform and help make contributing content as easy as possible.
+
+++ Dummi
+Dummi generates randomised data to help designers create designs that can handle real data that has names longer than "John Doe."
+I built this tool with [Aaron Benjamin] (designer at Amazon) and [Marc Mueller] (developer from Berlin) in August 2016.
+
+
++ Contact
+[mail icon] Send me an email
+[GitHub] [LinkedIn] [Twitter]
+
