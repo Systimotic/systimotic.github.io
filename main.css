@@ -1,8 +1,51 @@
+/*
+*
+* Table of contents
+* - Global
+* - Header
+* -- Navigation
+* -- Title
+* - About section
+* - Projects section
+* - Contact section
+* - Footer
+*
+*/
+
+
+/*
+* Global
+*/
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Comfortaa', serif;
+  font-family: 'Comfortaa', sans-serif;
   color: rgb(22, 22, 22);
+  background-color: hsl(101, 60%, 99%);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+::selection {
+  background-color: hsla(101, 70%, 50%, 0.7);
+}
+
+::-moz-selection {
+  /* can't be combined */
+  background-color: hsla(101, 70%, 50%, 0.7);
 }
 
 /*
@@ -13,7 +56,7 @@ header {
   position: relative;
   overflow: hidden;
   height: 70vh;
-  background-color: #56ab2f;
+  background-color: hsl(101, 57%, 43%);
   background-image: linear-gradient(to bottom right, #56ab2f, #a8e063);
   text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
 }
@@ -25,7 +68,7 @@ header:after {
   padding-bottom: 150%;
   transform: rotate(80deg);
   transform-origin: left bottom;
-  background-color: white;
+  background-color: hsl(101, 60%, 99%);
   left: -1%;
   bottom: 0;
 }
@@ -79,6 +122,69 @@ nav > ul > li > a:hover {
   margin: 0;
 }
 
-.title-container > h3 {
+.title-container > h4 {
   margin: 5px 0 0;
 }
+
+/*
+* About section
+*/
+
+#about {
+  display: flex;
+  max-width: 1100px;
+  padding-top: 60px; /* to pull title up */
+  margin: -30px auto 0; /* -30px to compensate for title */
+  position: relative; /* to display title above header:after */
+}
+
+.profile {
+  height: 300px;
+  border-radius: 20px;
+}
+
+#about p {
+  font-size: 1.5rem;
+}
+
+.content-container {
+  margin-left: 50px;
+  margin-top: -60px; /* to pull title up */
+}
+
+.content-container h2,
+.content-container h3 {
+  margin: 0 0 2px;
+}
+
+/*
+* Projects section
+*/
+
+#projects {
+  margin-top: 80px;
+  background-color: hsl(101, 4%, 85%);
+}
+
+.projects-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+/* Project card */
+
+.project-card {
+  display: flex;
+  padding: 100px 50px 60px;
+  border-radius: 10px;
+  background-color: hsl(101, 60%, 99%);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  /* 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3) */
+}
+
+.project-card > img {
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
