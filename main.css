@@ -208,9 +208,8 @@ header nav > ul > li:hover > a::before {
 }
 
 .profile {
-  height: auto;
-  max-height: 300px;
-  max-width: 300px;
+  height: 300px;
+  width: 300px;
   border-radius: 20px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.36);
 }
@@ -243,7 +242,9 @@ header nav > ul > li:hover > a::before {
   }
 
   .profile {
-    align-self: center;
+    margin: -30px 0 -55px 190px;
+    height: 250px;
+    width: 250px;
   }
 
   .content-container {
@@ -252,6 +253,13 @@ header nav > ul > li:hover > a::before {
 
   .content-container p {
     max-width: unset;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile {
+    margin: 0;
+    align-self: center;
   }
 }
 
