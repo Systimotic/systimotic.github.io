@@ -1,0 +1,11 @@
+Typography:
+Headers in Comfortaa
+Body text in Open Sans
+
+Icons from FontAwesome
+
+Smooth scrolling from Chris Ferdinandi's smooth-scroll http://github.com/cferdinandi/smooth-scroll
+
+Source code: https://github.com/systimotic/systimotic.github.io
+
+Hosted on GitHub pages, traffic goes through CloudFlare.
