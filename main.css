@@ -270,7 +270,7 @@ header nav > ul > li:hover > a::before {
 
 #projects {
   margin-top: 80px;
-  background-color: hsl(101, 4%, 85%);
+  background-color: hsl(101, 4%, 96%);
 }
 
 .projects-container {
@@ -297,7 +297,7 @@ header nav > ul > li:hover > a::before {
   padding: 50px 50px;
   border-radius: 10px;
   background-color: hsl(101, 60%, 99%);
-  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3); /* from http://materializecss.com/shadow.html */
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14);
 }
 
 .project-card:not(:last-child) {
@@ -447,10 +447,9 @@ header nav > ul > li:hover > a::before {
 */
 
 footer {
-  background-color: #777;
   margin-top: 50px;
-  background-color: hsl(101, 4%, 85%);
-  box-shadow: inset 0 9px 6px -7px rgba(0, 0, 0, 0.22);
+  background-color: hsl(101, 4%, 96%);
+  box-shadow: inset 0 12px 20px -10px rgba(0, 0, 0, 0.12);
 }
 
 .footer-container {
